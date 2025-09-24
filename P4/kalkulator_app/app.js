@@ -16,7 +16,7 @@ app.use(express.static('public'));
 
 // Route untuk halaman minimarket
 app.get('/minimarket', (req, res) => {
-   res.render('minimarket', { products }); 
+   res.render('minimarket', { products }); //hati-hati ada huruf "s" di products
 });
 
 // Menjalankan server
