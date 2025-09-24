@@ -10,13 +10,16 @@ const products = [
     { name: 'Telur', qty: 1, price: 30000 },
 ];
 
+// Set EJS sebagai view engine
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
 
+// Route untuk halaman minimarket
 app.get('/minimarket', (req, res) => {
    res.render('minimarket', { products }); 
 });
 
+// Menjalankan server
 app.listen(port, () => {
     console.log(`Aplikasi berjalan di http://localhost:${port}/minimarket`);
 });
