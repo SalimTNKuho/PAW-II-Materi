@@ -6,4 +6,12 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/minimarket', function(req, res, next) {
+  res.render('minimarket', { ttile: 'minimarket' });
+});
+
+router.get('/form', function(req, res, next) {
+  res.render('form', { ttile: 'formulir' });
+});
+
 module.exports = router;
