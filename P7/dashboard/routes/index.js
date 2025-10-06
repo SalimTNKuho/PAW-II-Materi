@@ -6,4 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
+router.get('/tambah', function(req, res, next) {
+  res.render('tambah', { title: 'Express' });
+});
+
 module.exports = router;
