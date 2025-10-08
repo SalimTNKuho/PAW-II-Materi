@@ -1,5 +1,5 @@
 const express = require('express');
-const penjualan = require('./models/penjualanModel');
+const penjualan = require('../models/penjualanModel');
 
 class PenjualanController {
   static getAll(req, res) {
@@ -65,4 +65,4 @@ class PenjualanController {
   }
 }
 
-module.exports = penjualanController;
+module.exports = PenjualanController;
