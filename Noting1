@@ -15,3 +15,5 @@ npm install -g express-generator
 npm install express ejs body-parser
 npx express-generator
 npm update <!-- pastikan diatas sudah dijalankan dulu -->
+
+npm install dotenv express mongoose
