@@ -17,3 +17,4 @@ npx express-generator
 npm update <!-- pastikan diatas sudah dijalankan dulu -->
 
 npm install dotenv express mongoose
+file ".env" <!-- jangan di push -->
