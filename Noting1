@@ -18,3 +18,8 @@ npm update <!-- pastikan diatas sudah dijalankan dulu -->
 
 npm install dotenv express mongoose
 file ".env"  dan "node_module" <!-- jangan di push -->
+
+npm install bcryptjs dotenv express mongoose nodemon <!-- untuk install module khusus server -->
+
+POST  http://localhost:5000/api/users/register
+x-www-form-urlencoded
