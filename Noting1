@@ -21,5 +21,16 @@ file ".env"  dan "node_module" <!-- jangan di push -->
 
 npm install bcryptjs dotenv express mongoose nodemon <!-- untuk install module khusus server -->
 
+npx create-react-app my-spa <!-- untuk buat react (file) baru -->
+<!-- struktur folder react  --> ↓↓↓
+my-spa/ [folder]
+    src/ [folder]
+        App.js [file]
+        Home.js [file]
+        About.js [file]
+        Contact.js [file]
+        index.js [file]
+    package.json [file - dari react otomatis buat]
+
 POST  http://localhost:5000/api/users/register
 x-www-form-urlencoded
