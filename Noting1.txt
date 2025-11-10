@@ -42,7 +42,7 @@ ada 2 framework yang digunakan:
 <!-- Menginstall Angular -->
 npm install -g @angular/cli
 node -v
-ng version
+ng version → #menggunakan command "ng" untuk Angular
 
 <!-- Membuat proyek baru Angular -->
 ng new [nama-proyek]
