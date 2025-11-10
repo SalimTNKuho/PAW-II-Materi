@@ -34,3 +34,15 @@ my-spa/ [folder]
 
 POST  http://localhost:5000/api/users/register
 x-www-form-urlencoded
+
+ada 2 framework yang digunakan:
+1. MonngoDB js (Back-End)
+2. Angular js (Front-End)
+
+<!-- Menginstall Angular -->
+npm install -g @angular/cli
+node -v
+ng version
+
+<!-- Membuat proyek baru Angular -->
+ng new [nama-proyek]
