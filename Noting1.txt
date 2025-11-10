@@ -36,8 +36,8 @@ POST  http://localhost:5000/api/users/register
 x-www-form-urlencoded
 
 ada 2 framework yang digunakan:
-1. MonngoDB js (Back-End)
-2. Angular js (Front-End)
+1. MongoDB.json (Back-End)
+2. Angular.json (Front-End)
 
 <!-- Menginstall Angular -->
 npm install -g @angular/cli
@@ -46,3 +46,14 @@ ng version → #menggunakan command "ng" untuk Angular
 
 <!-- Membuat proyek baru Angular -->
 ng new [nama-proyek]
+> note: file utama ada di folder "src"
+cd [nama-proyek] → pastikan ini dilakukan sebelum melakukan "ng serve"!!!
+ng serve → utk mengecek server
+ng generate component hello // ng g c hello
+
+<!-- struktur folder proyek -->
+src/ → file utama proyek
+app/ → komponen
+assets/ → gambar, icon, teks
+angular.json/ → front-end proyek
+mongodb.json/ → back-end proyek
