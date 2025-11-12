@@ -46,10 +46,22 @@ ng version → #menggunakan command "ng" untuk Angular
 
 <!-- Membuat proyek baru Angular -->
 ng new [nama-proyek]
+pilih yang "a" (all) → yang ada pertanyaan AI-nya
 > note: file utama ada di folder "src"
 cd [nama-proyek] → pastikan ini dilakukan sebelum melakukan "ng serve"!!!
 ng serve → utk mengecek server
 ng generate component hello // ng g c hello
+
+<!-- install bootstrap dalam angular -->
+cd [nama-proyek] → pastikan lakukan ini terdahulu
+npm install bootstrap → supaya file "angular.json" terlihat
+lalu pilih pilihlah file "angular.json"
+kemudian masukkan dalam line 82 dibawah "style" dengan (diatas "src/styles.css"):
+    "node_modules/bootstrap/dist/css/bootstrap.min.css",
+lalu ketikkan "scripts" dibawa "style" tersebut, lalu masukkan:
+    "node_modules/jquery/dist/jquery.min.js",
+    "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+ng generate component minimarket_app → komponen
 
 <!-- struktur folder proyek -->
 src/ → file utama proyek

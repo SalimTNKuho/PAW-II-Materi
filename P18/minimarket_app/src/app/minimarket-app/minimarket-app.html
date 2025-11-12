@@ -1,0 +1,40 @@
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">ProdukKu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Beranda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Tentang</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kontak</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- Konten utama -->
+  <div class="container mt-5">
+    <h2 class="mb-4 text-center">Daftar Produk</h2>
+    <div class="row">
+      <div class="col-md-4" *ngFor="let produk of produkList">
+        <div class="card mb-4 shadow-sm">
+          <img [src]="produk.gambar" class="card-img-top" alt="produk">
+          <div class="card-body">
+            <h5 class="card-title">{{ produk.nama }}</h5>
+            <p class="card-text">{{ produk.deskripsi }}</p>
+            <p class="fw-bold text-primary">Rp {{ produk.harga | number }}</p>
+            <button class="btn btn-outline-primary btn-sm">Beli Sekarang</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
