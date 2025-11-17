@@ -1,4 +1,5 @@
 <!-- untuk dijalankan didalam terminal -->
+CTRL+` → disebelah kiri "1"
 
 <!-- untuk buat folder utuh baru -->
 mkdir = "buat folder
@@ -47,7 +48,7 @@ ng version → #menggunakan command "ng" untuk Angular
 <!-- Membuat proyek baru Angular -->
 ng new [nama-proyek]
 pilih yang "a" (all) → yang ada pertanyaan AI-nya
-> note: file utama ada di folder "src"
+→> note: file utama ada di folder "src"
 cd [nama-proyek] → pastikan ini dilakukan sebelum melakukan "ng serve"!!!
 ng serve → utk mengecek server
 ng generate component hello // ng g c hello
@@ -56,7 +57,7 @@ ng generate component hello // ng g c hello
 cd [nama-proyek] → pastikan lakukan ini terdahulu
 npm install bootstrap → supaya file "angular.json" terlihat
 lalu pilih pilihlah file "angular.json"
-kemudian masukkan dalam line 82 dibawah "style" dengan (diatas "src/styles.css"):
+kemudian masukkan dalam line 82 dibawah "style" (diatas "src/styles.css") dengan:
     "node_modules/bootstrap/dist/css/bootstrap.min.css",
 lalu ketikkan "scripts" dibawa "style" tersebut, lalu masukkan:
     "node_modules/jquery/dist/jquery.min.js",
