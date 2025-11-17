@@ -16,6 +16,9 @@ npm install -g express-generator
 npm install express ejs body-parser
 npx express-generator
 npm update <!-- pastikan diatas sudah dijalankan dulu -->
+npm install <!-- lakukan lagi kalau ada kesalahan!!! -->
+
+npm install express cors <!-- untuk backend??? -->
 
 npm install dotenv express mongoose
 file ".env"  dan "node_module" <!-- jangan di push -->
@@ -37,8 +40,8 @@ POST  http://localhost:5000/api/users/register
 x-www-form-urlencoded
 
 ada 2 framework yang digunakan:
-1. MongoDB.json (Back-End)
-2. Angular.json (Front-End)
+1. MongoDB.json [node.js + express] (Back-End)
+2. Angular.json [data.json] (Front-End)
 
 <!-- Menginstall Angular -->
 npm install -g @angular/cli
@@ -70,3 +73,17 @@ app/ → komponen
 assets/ → gambar, icon, teks
 angular.json/ → front-end proyek
 mongodb.json/ → back-end proyek
+
+<!-- langkah penghubung backend dan frontend -->
+[Backend] → untuk data
+mkdir backend
+cd backend
+npm init -y
+npm install express cors
+node server.js
+
+↓ bikin file {bukan folder} didalam backend:
+data.json
+server.js
+
+[Frontend]
