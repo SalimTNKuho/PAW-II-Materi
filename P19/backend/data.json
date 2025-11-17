@@ -1,1 +1,16 @@
-[]
+{
+   "pegawai":[
+      {
+         "id":"444",
+         "nama":"Budi Santosa",
+         "alamat":"First",
+         "gaji":5000000
+      },
+      {
+         "id":"555",
+         "nama":"Johan",
+         "alamat":"Sekip",
+         "gaji":4500000
+      }
+   ]
+}

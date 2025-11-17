@@ -82,8 +82,16 @@ npm init -y
 npm install express cors
 node server.js
 
-↓ bikin file {bukan folder} didalam backend:
+↓ download materi di "pertemuan 18" dalam spon, lalu masukkan file tersebut kedalam backend:
 data.json
 server.js
 
+↓ lalu:
+npm install express
+node server.js
+note: localhost:3000/api/pegawai → untuk melihat data
+
 [Frontend]
+npm install -g @angular/cli → bagi belum install
+ng new frontend
+ng serve
